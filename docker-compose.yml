@@ -1,0 +1,15 @@
+services:
+  api:
+    build: .
+    image: simula-ad:latest
+    ports:
+      - "8000:8000"
+    environment:
+      SIMULA_DATA_DIR: /app/data
+      SIMULA_ARTIFACTS_DIR: /app/artifacts
+      SIMULA_REPORTS_DIR: /app/reports
+    volumes:
+      - ./data:/app/data:ro
+      - ./artifacts:/app/artifacts
+      - ./reports:/app/reports
+      - ./tests:/app/tests:ro

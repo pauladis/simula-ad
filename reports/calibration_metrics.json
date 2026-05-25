@@ -1,0 +1,108 @@
+{
+  "test": {
+    "calibration": [
+      {
+        "bin": 1,
+        "count": 13,
+        "lower_bound": 0.0,
+        "mean_predicted_ctr": 0.08458673677082575,
+        "observed_ctr": 0.07692307692307693,
+        "upper_bound": 0.1
+      },
+      {
+        "bin": 2,
+        "count": 6105,
+        "lower_bound": 0.1,
+        "mean_predicted_ctr": 0.16795065270633525,
+        "observed_ctr": 0.13546273546273546,
+        "upper_bound": 0.2
+      },
+      {
+        "bin": 3,
+        "count": 10215,
+        "lower_bound": 0.2,
+        "mean_predicted_ctr": 0.23287922136541533,
+        "observed_ctr": 0.13411649534997552,
+        "upper_bound": 0.30000000000000004
+      },
+      {
+        "bin": 4,
+        "count": 1575,
+        "lower_bound": 0.30000000000000004,
+        "mean_predicted_ctr": 0.32537343005136865,
+        "observed_ctr": 0.28825396825396826,
+        "upper_bound": 0.4
+      },
+      {
+        "bin": 5,
+        "count": 244,
+        "lower_bound": 0.4,
+        "mean_predicted_ctr": 0.45443668275080845,
+        "observed_ctr": 0.45901639344262296,
+        "upper_bound": 0.5
+      },
+      {
+        "bin": 6,
+        "count": 15,
+        "lower_bound": 0.5,
+        "mean_predicted_ctr": 0.5327462013158498,
+        "observed_ctr": 0.8,
+        "upper_bound": 0.6000000000000001
+      }
+    ],
+    "expected_calibration_error": 0.06995591001914932
+  },
+  "validation": {
+    "calibration": [
+      {
+        "bin": 1,
+        "count": 20,
+        "lower_bound": 0.0,
+        "mean_predicted_ctr": 0.08503993842142094,
+        "observed_ctr": 0.1,
+        "upper_bound": 0.1
+      },
+      {
+        "bin": 2,
+        "count": 4680,
+        "lower_bound": 0.1,
+        "mean_predicted_ctr": 0.16431043446178895,
+        "observed_ctr": 0.1202991452991453,
+        "upper_bound": 0.2
+      },
+      {
+        "bin": 3,
+        "count": 3133,
+        "lower_bound": 0.2,
+        "mean_predicted_ctr": 0.24398969335899254,
+        "observed_ctr": 0.24098308330673476,
+        "upper_bound": 0.30000000000000004
+      },
+      {
+        "bin": 4,
+        "count": 1871,
+        "lower_bound": 0.30000000000000004,
+        "mean_predicted_ctr": 0.3239361312553727,
+        "observed_ctr": 0.30571886691608763,
+        "upper_bound": 0.4
+      },
+      {
+        "bin": 5,
+        "count": 336,
+        "lower_bound": 0.4,
+        "mean_predicted_ctr": 0.44741396812999923,
+        "observed_ctr": 0.41369047619047616,
+        "upper_bound": 0.5
+      },
+      {
+        "bin": 6,
+        "count": 21,
+        "lower_bound": 0.5,
+        "mean_predicted_ctr": 0.5390372224241322,
+        "observed_ctr": 0.6190476190476191,
+        "upper_bound": 0.6000000000000001
+      }
+    ],
+    "expected_calibration_error": 0.026119427194716504
+  }
+}

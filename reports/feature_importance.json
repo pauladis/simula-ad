@@ -1,0 +1,136 @@
+{
+  "feature_importance": [
+    {
+      "feature": "site_id",
+      "importance": 24.673755623088585
+    },
+    {
+      "feature": "C17",
+      "importance": 24.46217641159832
+    },
+    {
+      "feature": "C14",
+      "importance": 14.427182462222888
+    },
+    {
+      "feature": "app_id",
+      "importance": 10.551549505917016
+    },
+    {
+      "feature": "site_domain",
+      "importance": 9.180212010179272
+    },
+    {
+      "feature": "C18",
+      "importance": 3.6795780341130855
+    },
+    {
+      "feature": "C16",
+      "importance": 2.905706125405087
+    },
+    {
+      "feature": "app_category",
+      "importance": 2.2537123707529423
+    },
+    {
+      "feature": "app_domain",
+      "importance": 1.324418633657667
+    },
+    {
+      "feature": "C15",
+      "importance": 1.2540555770197386
+    },
+    {
+      "feature": "C21",
+      "importance": 1.1639462546505566
+    },
+    {
+      "feature": "device_conn_type",
+      "importance": 1.089276836099024
+    },
+    {
+      "feature": "C1",
+      "importance": 1.0065232122541181
+    },
+    {
+      "feature": "C19",
+      "importance": 0.6972158353016249
+    },
+    {
+      "feature": "site_category",
+      "importance": 0.685271927426728
+    },
+    {
+      "feature": "safety_tier",
+      "importance": 0.4626192212151549
+    },
+    {
+      "feature": "character_age_days",
+      "importance": 0.1083979731381111
+    },
+    {
+      "feature": "num_interactions",
+      "importance": 0.03298257544815599
+    },
+    {
+      "feature": "turn_ratio",
+      "importance": 0.029408685433319016
+    },
+    {
+      "feature": "hour_of_day",
+      "importance": 0.012010725078602704
+    },
+    {
+      "feature": "banner_pos",
+      "importance": 0.0
+    },
+    {
+      "feature": "device_id",
+      "importance": 0.0
+    },
+    {
+      "feature": "device_ip",
+      "importance": 0.0
+    },
+    {
+      "feature": "device_model",
+      "importance": 0.0
+    },
+    {
+      "feature": "device_type",
+      "importance": 0.0
+    },
+    {
+      "feature": "character_id",
+      "importance": 0.0
+    },
+    {
+      "feature": "creator_type",
+      "importance": 0.0
+    },
+    {
+      "feature": "C20",
+      "importance": 0.0
+    },
+    {
+      "feature": "conversation_turn",
+      "importance": 0.0
+    },
+    {
+      "feature": "session_msg_count",
+      "importance": 0.0
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0.0
+    },
+    {
+      "feature": "num_interactions_log1p",
+      "importance": 0.0
+    }
+  ]
+}

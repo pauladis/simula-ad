@@ -1,0 +1,33 @@
+{
+  "error_count": 0,
+  "issues": [],
+  "quality": {
+    "duplicate_character_id_count": 0,
+    "duplicate_impression_id_count": 0,
+    "future_character_created_at_count": 0,
+    "invalid_click_count": 0,
+    "invalid_hour_count": 0,
+    "negative_counts": {
+      "conversation_turn": 0,
+      "num_interactions": 0,
+      "session_msg_count": 0
+    },
+    "null_counts": {
+      "character_id": 0,
+      "creator_type": 0,
+      "hour": 0,
+      "safety_tier": 0
+    },
+    "unknown_character_count": 0
+  },
+  "row_counts": {
+    "characters": 5000,
+    "impressions": 1000000
+  },
+  "schema": {
+    "missing_character_columns": [],
+    "missing_impression_columns": []
+  },
+  "status": "pass",
+  "warning_count": 0
+}

@@ -14,6 +14,7 @@ make api
 ```
 
 The API is served at `http://localhost:8000`. Docker Compose is also supported:
+The swagger can be found at `http://localhost:8000/docs`
 
 ```bash
 docker compose up --build
@@ -21,7 +22,7 @@ docker compose up --build
 
 ## Data Assumptions
 
-Expected inputs live in `data/impressions.csv` and `data/characters.csv`. Impression rows contain ad opportunity, host app/site, device, anonymized creative fields, character id, and conversation state. Character rows contain persona metadata, safety tier, creator type, interaction counts, and creation time.
+Expected inputs live in `data/impressions.csv` and `data/characters.csv`. Impression rows contain ad opportunity, host app/site, device, anonymized creative fields, character id, and conversation state. Character rows contain persona metadata, safety tier, creator type, interaction counts, and creation time
 
 ## Modeling Approach
 
@@ -29,7 +30,7 @@ The main model is a `CatBoostClassifier` because the impression data has many hi
 
 ## Feature Strategy
 
-Implemented feature helpers cover Avazu-style hour parsing, hour of day, day of week, weekend flag, turn ratio, character joins, character age, log interaction count, categorical missing-value handling, and reusable feature column definitions. Future target encoding must be time-safe or fold-safe.
+Implemented feature helpers cover Avazu-style hour parsing, hour of day, day of week, weekend flag, turn ratio, character joins, character age, log interaction count, categorical missing-value handling, and reusable feature column definitions
 
 ## Split Strategy
 
@@ -93,12 +94,6 @@ For sub-50ms p99 serving, preload the model in memory, avoid online joins, preco
 - `POST /predict`
 - `POST /rank`
 - `POST /batch-predict`
-
-OpenAPI examples are included for prediction, ranking, batch prediction, and structured error responses. API serving uses the saved CatBoost artifact when available and falls back to safe CTR priors if artifact loading or primary inference fails.
-
-## Trade-Offs
-
-This skeleton favors stable contracts and testable serving behavior before model complexity. The fallback predictor is not meant to optimize CTR; it is a safe prior that lets API, ranking, Docker, and tests work while the offline modeling layer is built.
 
 ## Next Steps
 

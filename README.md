@@ -2,6 +2,10 @@
 
 Production-oriented CTR prediction and campaign ranking system for Simula-style AI companion, RPG, and chat surfaces.
 
+## Data Assumptions
+
+Expected inputs live in `data/impressions.csv` and `data/characters.csv`. Impression rows contain ad opportunity, host app/site, device, anonymized creative fields, character id, and conversation state. Character rows contain persona metadata, safety tier, creator type, interaction counts, and creation time
+
 ## How To Run
 
 ```bash
@@ -19,10 +23,6 @@ The swagger can be found at `http://localhost:8000/docs`
 ```bash
 docker compose up --build
 ```
-
-## Data Assumptions
-
-Expected inputs live in `data/impressions.csv` and `data/characters.csv`. Impression rows contain ad opportunity, host app/site, device, anonymized creative fields, character id, and conversation state. Character rows contain persona metadata, safety tier, creator type, interaction counts, and creation time
 
 ## Modeling Approach
 

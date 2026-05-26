@@ -145,8 +145,8 @@
         "cef3e649": 0.040134040134040136,
         "f95efa07": 0.01983001983001983
       },
-      "kl_divergence": 0.026060366237843406,
-      "normalized_distribution_delta": 0.050487827888273044,
+      "kl_divergence": 0.0260603662378434,
+      "normalized_distribution_delta": 0.05048782788827306,
       "psi": 0.04856699056779636,
       "reference_top_values": {
         "07d7df22": 0.6402047195905608,
@@ -177,7 +177,7 @@
         "5": 0.003531003531003531
       },
       "kl_divergence": 0.003192553762946689,
-      "normalized_distribution_delta": 0.021747222959820553,
+      "normalized_distribution_delta": 0.02174722295982055,
       "psi": 0.0066770876139265085,
       "reference_top_values": {
         "0": 0.047345905308189384,
@@ -194,7 +194,7 @@
       },
       "kl_divergence": 0.0003780708727815704,
       "normalized_distribution_delta": 0.01352223440579263,
-      "psi": 0.0007574089424950029,
+      "psi": 0.0007574089424950028,
       "reference_top_values": {
         "mature": 0.14778570442859115,
         "sfw": 0.5930388139223721,
@@ -209,8 +209,8 @@
         "75fa27f6": 0.006549006549006549,
         "f028772b": 0.3279333279333279
       },
-      "kl_divergence": 0.010293699401566034,
-      "normalized_distribution_delta": 0.05302722863787744,
+      "kl_divergence": 0.01029369940156603,
+      "normalized_distribution_delta": 0.05302722863787743,
       "psi": 0.020574646097279038,
       "reference_top_values": {
         "28905ebd": 0.18509362981274038,

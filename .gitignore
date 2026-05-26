@@ -33,4 +33,4 @@ htmlcov/
 # OS
 .DS_Store
 
-*.csv
+*.csvartifacts/*.joblib

@@ -3,20 +3,20 @@
 ## Summary
 
 - Model: catboost_ctr
-- Version: ctr-20260525T023649Z
-- Trained at: 2026-05-25T02:36:49.943056+00:00
+- Version: ctr-20260525T033100Z
+- Trained at: 2026-05-25T03:31:00.715137+00:00
 - Artifact: /app/artifacts/ctr_model.joblib
 
 ## Split Strategy
 
 Rows are sorted by parsed impression time and split chronologically. Older impressions train the model, the middle period is used for validation, and the latest period is held out for test.
 
-- Train rows: 71772
-- Validation rows: 10061
-- Test rows: 18167
-- Train time range: 2014-10-29T06:00:00 to 2014-10-29T21:00:00
-- Validation time range: 2014-10-29T22:00:00 to 2014-10-30T01:00:00
-- Test time range: 2014-10-30T02:00:00 to 2014-10-30T05:00:00
+- Train rows: 680553
+- Validation rows: 176676
+- Test rows: 142771
+- Train time range: 2014-10-21T00:00:00 to 2014-10-27T10:00:00
+- Validation time range: 2014-10-27T11:00:00 to 2014-10-28T19:00:00
+- Test time range: 2014-10-28T20:00:00 to 2014-10-30T05:00:00
 
 ## Feature Strategy
 
@@ -33,18 +33,18 @@ CatBoostClassifier is used because the ranking problem has many high-cardinality
 
 | Split | Log Loss | ROC AUC | PR AUC | Brier | CTR |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Validation | 0.481808 | 0.664362 | 0.317166 | 0.154277 | 0.203161 |
-| Test | 0.432092 | 0.600976 | 0.248501 | 0.130787 | 0.152805 |
-| Global CTR Baseline Test | 0.428721 | 0.500000 | 0.152805 | 0.129779 | 0.152805 |
+| Validation | 0.408065 | 0.739554 | 0.370555 | 0.128016 | 0.173968 |
+| Test | 0.407965 | 0.728095 | 0.352203 | 0.127329 | 0.170056 |
+| Global CTR Baseline Test | 0.456662 | 0.500000 | 0.170056 | 0.141339 | 0.170056 |
 
 ## Ranking Metric
 
-- ctr_at_100: 0.630000
-- lift_at_100: 4.122914
-- ctr_at_1000: 0.336000
-- lift_at_1000: 2.198888
-- ctr_at_10000: 0.175200
-- lift_at_10000: 1.146563
+- ctr_at_100: 0.780000
+- lift_at_100: 4.586737
+- ctr_at_1000: 0.663000
+- lift_at_1000: 3.898726
+- ctr_at_10000: 0.442300
+- lift_at_10000: 2.600915
 
 ## Additional Reports
 
@@ -58,14 +58,14 @@ CatBoostClassifier is used because the ranking problem has many high-cardinality
 
 - depth: 6
 - early_stopping_rounds: 30
-- iterations: 20
+- iterations: 250
 - l2_leaf_reg: 3.0
 - learning_rate: 0.08
-- max_rows: 100000
+- max_rows: None
 - thread_count: -1
 - train_fraction: 0.7
 - validation_fraction: 0.15
-- verbose_eval: 10
+- verbose_eval: 50
 
 ## Trade-Offs
 

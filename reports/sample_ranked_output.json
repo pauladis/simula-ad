@@ -69,26 +69,13 @@
     "site_domain": "25d4cfcd",
     "site_id": "8fda644b"
   },
-  "generated_at": "2026-05-25T02:36:51.256391+00:00",
+  "generated_at": "2026-05-25T03:31:09.828211+00:00",
   "ranked_candidates": [
     {
-      "candidate_id": "campaign-suggestive-1",
-      "final_score": 0.34467195,
-      "predicted_ctr": 0.328259,
-      "rank": 1,
-      "reasons": [
-        "CatBoost CTR model",
-        "online context features",
-        "pacing boosted underspending campaign",
-        "fatigue within cap",
-        "no exploration bonus"
-      ]
-    },
-    {
       "candidate_id": "campaign-safe-1",
-      "final_score": 0.30085335,
-      "predicted_ctr": 0.286527,
-      "rank": 2,
+      "final_score": 0.13514025,
+      "predicted_ctr": 0.128705,
+      "rank": 1,
       "reasons": [
         "CatBoost CTR model",
         "online context features",
@@ -96,6 +83,19 @@
         "fatigue within cap",
         "no exploration bonus",
         "safe tier match"
+      ]
+    },
+    {
+      "candidate_id": "campaign-suggestive-1",
+      "final_score": 0.1168083,
+      "predicted_ctr": 0.111246,
+      "rank": 2,
+      "reasons": [
+        "CatBoost CTR model",
+        "online context features",
+        "pacing boosted underspending campaign",
+        "fatigue within cap",
+        "no exploration bonus"
       ]
     }
   ]

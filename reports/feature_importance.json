@@ -1,135 +1,135 @@
 {
   "feature_importance": [
     {
-      "feature": "site_id",
-      "importance": 24.673755623088585
-    },
-    {
-      "feature": "C17",
-      "importance": 24.46217641159832
-    },
-    {
-      "feature": "C14",
-      "importance": 14.427182462222888
-    },
-    {
       "feature": "app_id",
-      "importance": 10.551549505917016
+      "importance": 21.129931296978892
+    },
+    {
+      "feature": "site_id",
+      "importance": 19.655868396353174
     },
     {
       "feature": "site_domain",
-      "importance": 9.180212010179272
-    },
-    {
-      "feature": "C18",
-      "importance": 3.6795780341130855
-    },
-    {
-      "feature": "C16",
-      "importance": 2.905706125405087
+      "importance": 6.6653389286385085
     },
     {
       "feature": "app_category",
-      "importance": 2.2537123707529423
+      "importance": 6.511583267005874
     },
     {
-      "feature": "app_domain",
-      "importance": 1.324418633657667
-    },
-    {
-      "feature": "C15",
-      "importance": 1.2540555770197386
-    },
-    {
-      "feature": "C21",
-      "importance": 1.1639462546505566
-    },
-    {
-      "feature": "device_conn_type",
-      "importance": 1.089276836099024
-    },
-    {
-      "feature": "C1",
-      "importance": 1.0065232122541181
-    },
-    {
-      "feature": "C19",
-      "importance": 0.6972158353016249
-    },
-    {
-      "feature": "site_category",
-      "importance": 0.685271927426728
-    },
-    {
-      "feature": "safety_tier",
-      "importance": 0.4626192212151549
-    },
-    {
-      "feature": "character_age_days",
-      "importance": 0.1083979731381111
-    },
-    {
-      "feature": "num_interactions",
-      "importance": 0.03298257544815599
-    },
-    {
-      "feature": "turn_ratio",
-      "importance": 0.029408685433319016
-    },
-    {
-      "feature": "hour_of_day",
-      "importance": 0.012010725078602704
-    },
-    {
-      "feature": "banner_pos",
-      "importance": 0.0
-    },
-    {
-      "feature": "device_id",
-      "importance": 0.0
-    },
-    {
-      "feature": "device_ip",
-      "importance": 0.0
-    },
-    {
-      "feature": "device_model",
-      "importance": 0.0
-    },
-    {
-      "feature": "device_type",
-      "importance": 0.0
+      "feature": "C17",
+      "importance": 5.563117831885641
     },
     {
       "feature": "character_id",
-      "importance": 0.0
+      "importance": 4.728952550692762
+    },
+    {
+      "feature": "device_model",
+      "importance": 4.7191345279384205
+    },
+    {
+      "feature": "banner_pos",
+      "importance": 4.3429989190883225
+    },
+    {
+      "feature": "C14",
+      "importance": 4.179369088576614
+    },
+    {
+      "feature": "C21",
+      "importance": 3.5219058125883436
+    },
+    {
+      "feature": "app_domain",
+      "importance": 2.5595513785529485
+    },
+    {
+      "feature": "site_category",
+      "importance": 2.298950003501409
+    },
+    {
+      "feature": "device_ip",
+      "importance": 2.255735755542971
+    },
+    {
+      "feature": "safety_tier",
+      "importance": 2.2353078670758997
+    },
+    {
+      "feature": "device_id",
+      "importance": 2.1249393499442744
+    },
+    {
+      "feature": "hour_of_day",
+      "importance": 2.1084955077398275
+    },
+    {
+      "feature": "C19",
+      "importance": 1.5091289385270283
+    },
+    {
+      "feature": "C20",
+      "importance": 1.0501253068026526
+    },
+    {
+      "feature": "C15",
+      "importance": 0.510955201866269
+    },
+    {
+      "feature": "C18",
+      "importance": 0.453235046542258
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.4024108098511242
+    },
+    {
+      "feature": "C16",
+      "importance": 0.3899776313991316
+    },
+    {
+      "feature": "device_type",
+      "importance": 0.31832135077410123
+    },
+    {
+      "feature": "device_conn_type",
+      "importance": 0.23944456856768692
+    },
+    {
+      "feature": "C1",
+      "importance": 0.19606485864615025
+    },
+    {
+      "feature": "num_interactions_log1p",
+      "importance": 0.12351796852564358
+    },
+    {
+      "feature": "num_interactions",
+      "importance": 0.11156769538070352
+    },
+    {
+      "feature": "character_age_days",
+      "importance": 0.06761972567986438
+    },
+    {
+      "feature": "session_msg_count",
+      "importance": 0.016771701856304434
+    },
+    {
+      "feature": "turn_ratio",
+      "importance": 0.00633639932776261
+    },
+    {
+      "feature": "conversation_turn",
+      "importance": 0.0033423141495468574
     },
     {
       "feature": "creator_type",
       "importance": 0.0
     },
     {
-      "feature": "C20",
-      "importance": 0.0
-    },
-    {
-      "feature": "conversation_turn",
-      "importance": 0.0
-    },
-    {
-      "feature": "session_msg_count",
-      "importance": 0.0
-    },
-    {
-      "feature": "day_of_week",
-      "importance": 0.0
-    },
-    {
       "feature": "is_weekend",
-      "importance": 0.0
-    },
-    {
-      "feature": "num_interactions_log1p",
       "importance": 0.0
     }
   ]
